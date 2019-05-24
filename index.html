@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets\stylesheets\Menu.css">
+    <title>Choose a gamemode</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe!</h1>
+    <h2>Choose a gamemode</h2>
+    <ul class="Menu">
+      <li><input id="PVAI" onmouseover="gamemodeMessage(1)" type="button" onclick="location.href='difficulty.html';" value="Player vs AI" /></li>
+      <li><input id="PVP" onmouseover="gamemodeMessage(2)" type="button" onclick="modeChose(4); location.href='Game.html';" value="Player vs Player" /></li>
+    </ul>
+    <p id="funMessage"></p>
+  <script src="assets/js/menuActions.js" charset="utf-8"></script>
+  <script src="assets/js/menuOptions.js" charset="utf-8"></script>
+  <noscript><img src="assets/noscript.jpg" alt="Noscript meme"></noscript>
+  </body>
+</html>
