@@ -91,6 +91,9 @@ function mousePressed() {
           case "3":
             hardAI();
             break;
+          case "5":
+            impossibleAI();
+            break;
           default:
             console.log("Something went wrong");
         }

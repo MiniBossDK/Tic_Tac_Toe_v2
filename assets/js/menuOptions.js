@@ -13,6 +13,9 @@ function modeChose(chose) {
     case 3:
       sessionStorage.setItem("difficulty", "3");
       break;
+    case 5:
+      sessionStorage.setItem("difficulty", "5");
+      break;
     case 4:
       sessionStorage.setItem("isMultiplayer", "true");
       break;

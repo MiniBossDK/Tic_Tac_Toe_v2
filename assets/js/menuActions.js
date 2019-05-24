@@ -13,6 +13,9 @@ function difficultyMessage(message) {
     case 3:
       document.getElementById('message').innerHTML = hardMessage;
       break;
+    case 5:
+      document.getElementById('message').innerHTML = hardMessage;
+      break;
     default:
       console.log("Something went from here?");
   }
